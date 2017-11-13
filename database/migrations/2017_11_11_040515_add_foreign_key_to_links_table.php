@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateUsersTable extends Migration
+class AddForeignKeyToLinksTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,13 +13,8 @@ class CreateUsersTable extends Migration
      */
     public function up()
     {
-        Schema::create('users', function (Blueprint $table) {
-            $table->increments('id');
-            $table->string('name');
-            $table->string('email');
-            $table->string('password');
-            $table->rememberToken();
-            $table->timestamps();
+        Schema::table('links', function (Blueprint $table) {
+            $table->foreign('match_id', 'links_ibfk_1')->references('id')->on('matchs')->onUpdate('RESTRICT')->onDelete('CASCADE');
         });
     }
 
@@ -30,6 +25,8 @@ class CreateUsersTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('users');
+        Schema::table('links', function (Blueprint $table) {
+            $table->dropForeign('links_ibfk_1');
+        });
     }
 }
