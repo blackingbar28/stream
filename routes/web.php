@@ -22,6 +22,4 @@ Route::group(['middleware' => 'auth:web'], function() {
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/test', function () {
-    echo 123;
-});
+Route::get('/matchs', 'SiteController@match');

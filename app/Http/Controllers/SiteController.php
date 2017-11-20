@@ -8,4 +8,9 @@ class SiteController extends Controller
     {
 
     }
+
+    public function match()
+    {
+        return view('match');
+    }
 }

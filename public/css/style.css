@@ -1,5 +1,9 @@
-body {
+.mb-none {
+    margin-bottom: 0;
+}
+.bg-img {
     background: url("img/logo1.jpg") no-repeat;
+    background-size: 100%;
 }
 .content-wrap {
     min-height: 800px;
@@ -33,4 +37,11 @@ body {
 }
 .form-delete {
     display: inline-block;
+}
+
+.wrap-stream {
+    margin-top: 30px;
+}
+.match-hd {
+    margin-bottom: 30px;
 }
