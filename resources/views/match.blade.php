@@ -11,13 +11,17 @@
             <h1>
                 ATLETICO MINEIRO VS CORITIBA LIVE STREAM
             </h1>
+            <p>
+                24/11/17 03:00
+            </p>
+            <p>
+                NATIONAL COLLEGIATE ATHLETIC ASSOCIATION (NCAA)
+            </p>
         </div>
         <div class="video-player-wrap text-center">
             <iframe width="1100" height="500"
-                    src="https://www.youtube.com/embed/Y4nRZfVnObg?autoplay=1&showinfo=0&controls=0&autohide=0&modestbranding=1&rel=0&showsearch=0&ps=docs"
+                    src="https://www.youtube.com/embed/umkMeg8VaA0?autoplay=1&showinfo=0&controls=0&autohide=0&modestbranding=1&rel=0&showsearch=0"
                     frameborder="0" allowfullscreen></iframe>
-
-            {{--<iframe width="100%" height="100%" src="//www.youtube.com/embed/qUJYqhKZrwA?autoplay=0&showinfo=0&controls=0" frameborder="0" allowfullscreen>--}}
         </div>
 
     </div>

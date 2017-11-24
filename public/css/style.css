@@ -1,15 +1,19 @@
+
 .mb-none {
     margin-bottom: 0;
 }
 .bg-img {
     background: url("img/logo1.jpg") no-repeat;
     background-size: 100%;
+    overflow: hidden;
 }
 .content-wrap {
     min-height: 800px;
     height: auto;
-    width: 700px;
+    width: 60%;
     opacity: 1.2;
+    margin: 0 auto;
+    padding-top: 40px;
 }
 .site-hd {
     margin-top: 5px;
@@ -44,4 +48,7 @@
 }
 .match-hd {
     margin-bottom: 30px;
+}
+.table.is-narrow td, .table.is-narrow th {
+    padding: 10px 20px;
 }

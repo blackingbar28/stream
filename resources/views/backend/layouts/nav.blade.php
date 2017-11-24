@@ -14,20 +14,17 @@
         <!-- nav content -->
         <div id="navMenuColorprimary-example" class="navbar-menu">
             <div class="navbar-start">
-                <a class="navbar-item" href="https://bulma.io/">
+                <a class="navbar-item" href="/">
                     Home
                 </a>
-                <a class="navbar-item" href="https://bulma.io/">
-                    Home
+                <a class="navbar-item" href="/">
+                    Streaming
                 </a>
-                <a class="navbar-item" href="https://bulma.io/">
-                    Home
+                <a class="navbar-item" href="/">
+                    Video
                 </a>
-                <a class="navbar-item" href="https://bulma.io/">
-                    Home
-                </a>
-                <a class="navbar-item" href="https://bulma.io/">
-                    Home
+                <a class="navbar-item" href="/">
+                    Help
                 </a>
             </div>
 
